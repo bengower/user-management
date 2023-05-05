@@ -214,6 +214,8 @@ class AuthController extends BaseController
 			return $this->goHome();
 		}
 
+		$this->layout = "@app/views/layouts/no-nav";
+
 		$model = new PasswordRecoveryForm();
 
 		if ( Yii::$app->request->isAjax AND $model->load(Yii::$app->request->post()) )
