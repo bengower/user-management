@@ -274,7 +274,8 @@ class AuthController extends BaseController
 
 		if ( !$user )
 		{
-			throw new NotFoundHttpException(UserManagementModule::t('front', 'Token not found. It may be expired. Try reset password once more'));
+			return $this->renderIsAjax('changeOwnPasswordExpired');
+// 			throw new NotFoundHttpException(UserManagementModule::t('front', 'Token not found. It may be expired. Try reset password once more'));
 		}
 
 		$model = new ChangeOwnPasswordForm([
