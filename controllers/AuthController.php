@@ -267,6 +267,8 @@ class AuthController extends BaseController
 		{
 			return $this->goHome();
 		}
+		
+		$this->layout = "@app/views/layouts/minimal";
 
 		$user = User::findByConfirmationToken($token);
 
