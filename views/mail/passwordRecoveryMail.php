@@ -632,6 +632,11 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
             style="text-decoration: none; color: #7C8287;">Terms of service</a>
           </td>
         </tr>
+        <tr>
+          <td align=center style="border-collapse: collapse; text-align: center; font-family: GoogleSans-Regular, Helvetica, Arial, sans-serif; font-weight: 300; line-height: 15px; font-size: 11px; color: #7C8287; padding-top: 12px">
+            Powered by <strong>Verifico</strong>
+          </td>
+        </tr>
         <!-- /ENTITY, ADDRESS, RATIONALE, LINKS -->
         <tr>
           <td class=spacer style="border-collapse: collapse; height: 64px; line-height: 64px; font-size: 64px;"
