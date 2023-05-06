@@ -236,15 +236,17 @@ class AuthController extends BaseController
 			{
 				if ( $model->sendEmail(false) )
 				{
-					if ( $this->triggerModuleEvent(UserAuthEvent::AFTER_PASSWORD_RECOVERY_REQUEST, ['model'=>$model]) )
-					{
-						return $this->renderIsAjax('passwordRecoverySuccess');
-					}
+// 					if ( $this->triggerModuleEvent(UserAuthEvent::AFTER_PASSWORD_RECOVERY_REQUEST, ['model'=>$model]) )
+// 					{
+// 						return $this->renderIsAjax('passwordRecoverySuccess');
+// 					}
 				}
 				else
 				{
-					Yii::$app->session->setFlash('error', UserManagementModule::t('front', "Unable to send message for email provided"));
+// 					Yii::$app->session->setFlash('error', UserManagementModule::t('front', "Unable to send message for email provided"));
 				}
+				
+				return $this->renderIsAjax('passwordRecoverySuccess');
 			}
 		}
 
