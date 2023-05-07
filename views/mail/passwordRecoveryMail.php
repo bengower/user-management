@@ -550,6 +550,9 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
                               <td class="body typography--body" align=center style="border-collapse: collapse; font-weight: 400; font-family: GoogleSans-Regular, Helvetica, Arial, sans-serif; color: #3C4043; padding-left: 43px; padding-right: 43px; font-size: 20px; line-height: 32px; letter-spacing: -0.4px; padding-bottom: 30px;">
                               <p>Hello <?= Html::encode($user->username) ?>, follow this link to reset your password:</p>
                               <p><?= Html::a('Reset password', $resetLink) ?></p>
+                              <p>or</p>
+                              <p>Paste this in your address bar: <?= $resetLink ?>
+                              </p>
                                 <!--p>Thanks {{site.name}}</p-->
                               </td>
                             </tr>
@@ -557,6 +560,9 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
                           <!-- FEATURES -->
                           <table class="features " width=100% bgcolor style="border-collapse: collapse; background: #ffffff;"
                           cellpadding=0 cellspacing=0 border=0>
+                            <tr>
+                              <td class="typography-feature-hl edge-pad" align=center style="border-collapse: collapse; font-family: GoogleSans-Bold, Helvetica, Arial, sans-serif; font-weight: bold; color: #3C4043; font-size: 20px; line-height: 36px; padding-top: 59px; padding-bottom: 32px; letter-spacing: -0.06px; padding-left: 125px; padding-right: 125px;">Why has my order been cancelled?</td>
+                            </tr>
                             <tr>
                               <td class="lockups edge-pad" style="border-collapse: collapse; font-size: 16px; line-height: 24px; color: #5F6368; font-family: GoogleSans-Regular, Helvetica, Arial, sans-serif; padding-left: 125px; padding-right: 125px;">
                                 <table align=center class=m-fluid style="border-collapse: collapse;" cellpadding=0
