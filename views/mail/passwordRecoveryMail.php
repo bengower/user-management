@@ -560,9 +560,7 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
                           <!-- FEATURES -->
                           <table class="features " width=100% bgcolor style="border-collapse: collapse; background: #ffffff;"
                           cellpadding=0 cellspacing=0 border=0>
-                            <tr>
-                              <td class="typography-feature-hl edge-pad" align=center style="border-collapse: collapse; font-family: GoogleSans-Bold, Helvetica, Arial, sans-serif; font-weight: bold; color: #3C4043; font-size: 20px; line-height: 36px; padding-top: 59px; padding-bottom: 32px; letter-spacing: -0.06px; padding-left: 125px; padding-right: 125px;">Why has my order been cancelled?</td>
-                            </tr>
+                           
                             <tr>
                               <td class="lockups edge-pad" style="border-collapse: collapse; font-size: 16px; line-height: 24px; color: #5F6368; font-family: GoogleSans-Regular, Helvetica, Arial, sans-serif; padding-left: 125px; padding-right: 125px;">
                                 <table align=center class=m-fluid style="border-collapse: collapse;" cellpadding=0
@@ -604,7 +602,7 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
       cellpadding=0 cellspacing=0 border=0>
         <tr>
           <td class=spacer style="border-collapse: collapse; height: 48px; line-height: 48px; font-size: 48px;"
-          height=48> </td>
+          height=48> </td>
         </tr>
         
         
@@ -617,7 +615,7 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
                 <td style="padding-left: 16px; padding-right: 16px;">
                   <table width=100%>
                     <tr>
-                      <td width=100% style="border-top: 1px solid #d8d8d8; font-size: 0px; line-height: 0px; padding-bottom: 32px;"> </td>
+                      <td width=100% style="border-top: 1px solid #d8d8d8; font-size: 0px; line-height: 0px; padding-bottom: 32px;"> </td>
                     </tr>
                   </table>
                 </td>
@@ -633,7 +631,7 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
         <tr>
           <td align=center style="border-collapse: collapse; text-align: center; font-family: GoogleSans-Regular, Helvetica, Arial, sans-serif; font-weight: 300; line-height: 15px; font-size: 11px; color: #7C8287; padding-top: 12px">
             <a href=#
-            style="text-decoration: none; color: #7C8287;">Privacy Policy</a>   |   
+            style="text-decoration: none; color: #7C8287;">Privacy Policy</a>   |   
             <a href=#
             style="text-decoration: none; color: #7C8287;">Terms of service</a>
           </td>
@@ -646,7 +644,7 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
         <!-- /ENTITY, ADDRESS, RATIONALE, LINKS -->
         <tr>
           <td class=spacer style="border-collapse: collapse; height: 64px; line-height: 64px; font-size: 64px;"
-          height=64> </td>
+          height=64> </td>
         </tr>
       </table>
     </div>
@@ -658,7 +656,7 @@ $resetLink = Yii::$app->urlManager->createAbsoluteUrl(['/user-management/auth/pa
 </pre>
 
   </div>
-  <div class="ganga-show div-gmail-hack" style="white-space: nowrap; font: 15px courier; line-height: 0;">                                                           </div>
+  <div class="ganga-show div-gmail-hack" style="white-space: nowrap; font: 15px courier; line-height: 0;">                                                           </div>
   <!-- /INBOX &
   GMAIL MOBILE HACK -->
  
